@@ -8,4 +8,10 @@ TCRdb contains more than 100 million highly reliable TCR sequences from over 660
 * Categorized sample metadata, enabling comparison of TCRs in different sample types; 
 * Interactive data visualization charts, describing the TCR repertoire in TCR diversity, length distribution and V-J gene utilization.
 
+The TCRdb database is freely available at [http://bioinfo.life.hust.edu.cn/TCRdb/ ](http://bioinfo.life.hust.edu.cn/TCRdb/ )
+
+## Description
+
+The parameters used for each method.
+
 ## Citing
