@@ -12,6 +12,14 @@ The TCRdb database is freely available at [http://bioinfo.life.hust.edu.cn/TCRdb
 
 ## Description
 
-The parameters used for each method.
+`CATT .smk`, `MiXCR.smk`, `IMSEQ.smk`: The parameters used for each method.
+
+`Download.smk`： For data download from NCBI.
+
+`QC_single/double.smk`: For raw data quanlity control.
+
+All the pipepines were written in Snakemake.
 
 ## Citing
+
+Si-Yi Chen, Tao Yue, Qian Lei, An-Yuan Guo, TCRdb: a comprehensive database for T-cell receptor sequences with powerful search function, *Nucleic Acids Research*, , gkaa796, https://doi.org/10.1093/nar/gkaa796
