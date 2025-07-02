@@ -1,11 +1,11 @@
-mixcr_path = "/home/chensy/mixcr-4.1.0/mixcr"
-command_temp = "snakemake -s /workspace/chensy/TCR/01.Script/22_Runmixcr_TRB.sm /workspace/chensy/TCR/mixcrResult/PRJNA297261/SRR2549146.TRB.mixcr"
+mixcr_path = "/home/yuet/mixcr-4.1.0/mixcr"
+command_temp = "snakemake -s /workspace/yuet/TCR/01.Script/22_Runmixcr_TRB.sm /workspace/yuet/TCR/mixcrResult/PRJNA297261/SRR2549146.TRB.mixcr"
 
 rule all:
-    input: "/workspace/chensy/TCR/mixcrResult/{projectId}/{runId}.TRB.mixcr"
+    input: "/workspace/yuet/TCR/mixcrResult/{projectId}/{runId}.TRB.mixcr"
 
 rule align:
-    input: "/workspace/chensy/TCR/2.afterQC/{projectId}/{runId}.afterQC.fastq.gz"
+    input: "/workspace/yuet/TCR/2.afterQC/{projectId}/{runId}.afterQC.fastq.gz"
     output: temp("{projectId}_{runId}.vdjca")
     threads: 32
     shell:
@@ -23,7 +23,7 @@ rule assemble:
         
 rule export:
     input: rules.assemble.output,
-    output: "/workspace/chensy/TCR/mixcrResult/{projectId}/{runId}.TRB.mixcr",
+    output: "/workspace/yuet/TCR/mixcrResult/{projectId}/{runId}.TRB.mixcr",
     shell:
         """
         timeout 10800 {mixcr_path} exportClones -o -t -f -c TRB {input} {output}
