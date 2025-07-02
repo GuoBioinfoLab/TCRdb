@@ -1,4 +1,4 @@
-# TCRdb: A comprehensive database of T-cell receptor sequences
+# TCRdb(2.0): A comprehensive database of T-cell receptor sequences
 
 <a href=''><img src='Homepage.png' align='right' height='250' /></a>
 
