@@ -8,7 +8,6 @@ The unique features of TCRdb include:
 * Categorized sample metadata, enabling comparison of TCRs in different sample types; 
 * Interactive data visualization charts, describing the TCR repertoire in TCR diversity, length distribution and V-J gene utilization.
 
-The TCRdb database is freely available at [https://guolab.wchscu.cn/TCRdb/ ](https://guolab.wchscu.cn/TCRdb/#/ )
 
 ## Newly Update
 * A substantial increase in data volume, with the number of TCR samples growing from 8,265 to 19,701 and the number of TCR sequences expanding from 277 million to about 700 million
@@ -16,7 +15,6 @@ The TCRdb database is freely available at [https://guolab.wchscu.cn/TCRdb/ ](htt
 * New search function, supporting batch search.
 * Redesigned download function
 
-The latest TCRdb2.0 is freely available at [https://guolab.wchscu.cn/TCRdb2.0/ ](https://guolab.wchscu.cn/TCRdb2/#/ ) 
 
 ## Description
 
@@ -33,3 +31,8 @@ All the pipepines were written in Snakemake.
 Si-Yi Chen, Tao Yue, Qian Lei, An-Yuan Guo, TCRdb: a comprehensive database for T-cell receptor sequences with powerful search function, *Nucleic Acids Research*, , gkaa796, https://doi.org/10.1093/nar/gkaa796
 
 Tao Yue, Si-Yi Chen, Wen-Kang Shen, Yu Liao, Qian Lei, An-Yuan Guo, TCRdb 2.0: an updated T-cell receptor sequence database, unpublished
+
+## Access
+
+The TCRdb database is freely available at [https://guolab.wchscu.cn/TCRdb/ ](https://guolab.wchscu.cn/TCRdb/#/ )
+The latest TCRdb2.0 is freely available at [https://guolab.wchscu.cn/TCRdb2.0/ ](https://guolab.wchscu.cn/TCRdb2/#/ ) 
