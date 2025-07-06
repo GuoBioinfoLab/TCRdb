@@ -16,7 +16,7 @@ The TCRdb database is freely available at [https://guolab.wchscu.cn/TCRdb/ ](htt
 * New search function, supporting batch search.
 * Redesigned download function
 
-The latest TCRdb2.0 is freely available at [https://guolab.wchscu.cn/TCRdb2.0/ ](https://guolab.wchscu.cn/TCRdb2/#/ ) !!!!!
+The latest TCRdb2.0 is freely available at [https://guolab.wchscu.cn/TCRdb2.0/ ](https://guolab.wchscu.cn/TCRdb2/#/ )   !!!!!
 
 ## Description
 
@@ -32,4 +32,4 @@ All the pipepines were written in Snakemake.
 
 Si-Yi Chen, Tao Yue, Qian Lei, An-Yuan Guo, TCRdb: a comprehensive database for T-cell receptor sequences with powerful search function, *Nucleic Acids Research*, , gkaa796, https://doi.org/10.1093/nar/gkaa796
 
-Tao Yue1, Si-Yi Chen, Wen-Kang Shen, Yu Liao, Qian Lei1, An-Yuan Guo, TCRdb 2.0: an updated T-cell receptor sequence database, unpublished
+Tao Yue, Si-Yi Chen, Wen-Kang Shen, Yu Liao, Qian Lei, An-Yuan Guo, TCRdb 2.0: an updated T-cell receptor sequence database, unpublished
