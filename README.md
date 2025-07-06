@@ -16,7 +16,7 @@ The TCRdb database is freely available at [https://guolab.wchscu.cn/TCRdb/ ](htt
 * New search function, supporting batch search.
 * Redesigned download function
 
-The latest TCRdb2.0 is freely available at [https://guolab.wchscu.cn/TCRdb2.0/ ](https://guolab.wchscu.cn/TCRdb2/#/ )   !!!!!
+The latest TCRdb2.0 is freely available at [https://guolab.wchscu.cn/TCRdb2.0/ ](https://guolab.wchscu.cn/TCRdb2/#/ ) 
 
 ## Description
 
