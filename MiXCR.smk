@@ -5,7 +5,7 @@ rule all:
     input: "/workspace/yuet/TCR/mixcrResult/{projectId}/{runId}.TRB.mixcr"
 
 rule align:
-    input: "/workspace/yuet/TCR/2.afterQC/{projectId}/{runId}.afterQC.fastq.gz"
+    input: "/workspace/yuet/TCR/2.afterQC/{projectId}/{runId}.afterQC.fastq"
     output: temp("{projectId}_{runId}.vdjca")
     threads: 32
     shell:
