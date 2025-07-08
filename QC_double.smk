@@ -24,6 +24,6 @@ rule QC:
     threads: 16
     shell:
         """
-        fastp -i {input[0]} -o {output[0]} -I {input[1]} -O {output[1]} -M 25 -q 25 -l 30 -w {threads}
+        fastp -i {input[0]} -o {output[0]} -I {input[1]} -O {output[1]} -M 25 -q 25 -l 40 -w {threads}
         """        
         
